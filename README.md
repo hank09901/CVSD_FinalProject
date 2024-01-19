@@ -13,3 +13,7 @@
 
 ![MIMO architecture](https://github.com/hank09901/CVSD/blob/main/Picture/MIMO.png)
 
+> We can construct system model with AWGN(additive white Gaussian noise) channel.
+
+    $\breve s$
+
