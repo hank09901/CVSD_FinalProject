@@ -23,5 +23,7 @@ $$\underline{y} = \begin{bmatrix} y_1 \\\ y_2 \\\ y_3 \\\ y_4 \end{bmatrix} = \b
 
 > MIMO receiver is composed of QR decomposition (QRD) and Maximum Likelihood (ML) demodulation
 
-* 
+* The system model of MIMO receiver is shown below.
+
+![MIMO system model](https://github.com/hank09901/CVSD_FinalProject/blob/main/Picture/system%20model.png)
 
