@@ -4,7 +4,7 @@
 
 > This is my first time to write a README.md file. I hope this file can help me to write a good README.md file in the future.
 
-- [CVSD 2023 Fall Final Project](#CVSD-2023-Fall Final-Project)
+- [CVSD 2023 Fall Final Project](#https://github.com/hank09901/CVSD/tree/main?tab=readme-ov-file#cvsd-2023-fall-final-project)
 
 # CVSD 2023 Fall Final Project
 
