@@ -15,7 +15,7 @@
 
 > We can construct system model with AWGN(additive white Gaussian noise) channel.
 
-* $\breve s_1,\,\breve s_2,\,\breve s_3,\,\breve s_4$ are the transmitted symbols(2 bit per symbol) with QPSK modulation. 
+* $\breve s_1\,\breve s_2\,\breve s_3\,\breve s_4$ are the transmitted symbols(2 bit per symbol) with QPSK modulation. 
 
 ### $$\underline{y} = H\underline{\breve s} + \underline{n}$$
 
