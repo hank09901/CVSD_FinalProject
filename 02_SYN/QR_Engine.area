@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : QR_Engine
+Version: U-2022.12
+Date   : Sat Dec 16 17:27:22 2023
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    slow (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/slow.db)
+    sram_256x8 (File: /home/raid7_2/userb09/b9703086/CVSD_Final/SRAM/sram_256x8/sram_256x8_slow_syn.db)
+
+Number of ports:                         3112
+Number of nets:                         20754
+Number of cells:                        18277
+Number of combinational cells:          14759
+Number of sequential cells:              2897
+Number of macros/black boxes:               4
+Number of buf/inv:                       3827
+Number of references:                     510
+
+Combinational area:             134113.271194
+Buf/Inv area:                    18859.811171
+Noncombinational area:           82715.999249
+Macro/Black Box area:            83239.617188
+Net Interconnect area:         1951749.867920
+
+Total cell area:                300068.887630
+Total area:                    2251818.755550
+1
