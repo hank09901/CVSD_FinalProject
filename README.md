@@ -15,5 +15,6 @@
 
 > We can construct system model with AWGN(additive white Gaussian noise) channel.
 
-    $\breve s$
+
+$\underline{y} = H\underline{\breve s} + \underline{n}$
 
