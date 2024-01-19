@@ -17,5 +17,5 @@
 
 ### $$\underline{y} = H\underline{\breve s} + \underline{n}$$
 
-$$\underline{y} = \begin{bmatrix} y_1 \\ y_2 \\ y_3 \\ y_4 \end{bmatrix} = \begin{bmatrix} h_{11} & h_{12} & h_{13} & h_{14} \\ h_{21} & h_{22} & h_{23} & h_{24} \\ h_{31} & h_{32} & h_{33} & h_{34} \\ h_{41} & h_{42} & h_{43} & h_{44} \end{bmatrix} \begin{bmatrix} \breve s_1 \\ \breve s_2 \\ \breve s_3 \\ \breve s_4 \end{bmatrix} + \begin{bmatrix} n_1 \\ n_2 \\ n_3 \\ n_4 \end{bmatrix}$$
+$$\underline{y} = \begin{bmatrix} y_1 \\\ y_2 \\\ y_3 \\\ y_4 \end{bmatrix} = \begin{bmatrix} h_{11} & h_{12} & h_{13} & h_{14} \\\ h_{21} & h_{22} & h_{23} & h_{24} \\\ h_{31} & h_{32} & h_{33} & h_{34} \\\ h_{41} & h_{42} & h_{43} & h_{44} \end{bmatrix} \begin{bmatrix} \breve s_1 \\\ \breve s_2 \\\ \breve s_3 \\\ \breve s_4 \end{bmatrix} + \begin{bmatrix} n_1 \\\ n_2 \\\ n_3 \\\ n_4 \end{bmatrix}$$
 
