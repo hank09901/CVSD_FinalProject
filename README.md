@@ -5,6 +5,7 @@
 > This is my first time to write a README.md file. I hope this file can help me to write a good README.md file in the future.
 
 - [CVSD 2023 Fall Final Project](#CVSD-2023-Fall-Final-Project)
+- [01_RTL](#01_RTL)
 
 # CVSD 2023 Fall Final Project
 
@@ -26,4 +27,8 @@ $$\underline{y} = \begin{bmatrix} y_1 \\\ y_2 \\\ y_3 \\\ y_4 \end{bmatrix} = \b
 * The system model of MIMO receiver is shown below.
 
 ![MIMO system model](https://github.com/hank09901/CVSD_FinalProject/blob/main/Picture/system%20model.png)
+
+> However, in this project, we only need to implement the QRD.
+
+# 01_RTL
 
