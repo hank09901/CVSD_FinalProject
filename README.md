@@ -39,8 +39,8 @@ in each process, we separate several computations accordingly. As
 the picture of our algorithm flow shown below, we have four procedures(iterations) such as ***PROC1***,
 ***PROC2***, ***PROC3***, ***PROC4***. In each process, we also have four operations, including ***SQUARE***,
 ***SQRT***, ***DIVIDE***, ***INNER_PRODUCT*** (not in the ***PROC4***), ***PROJECTION***.
-First, in ***SQUARE and SQRT***, the norm of $h_1^\left(0\right)$, $h_2^\left(1\right)$, $h_3^\left(2\right)$,$h_4^\left(3\right)$,
-namely $R_{11}$, $R_{22}$,$R_{33}$,$R_{44}$, is computed under each iteration, respectively.
+First, in ***SQUARE*** and ***SQRT***, the norm of $h_1^\left(0\right)$, $h_2^\left(1\right)$, $h_3^\left(2\right)$, $h_4^\left(3\right)$,
+namely $R_{11}$, $R_{22}$, $R_{33}$, $R_{44}$, is computed under each iteration, respectively.
 Next, in ***DIVIDE***, $e_1$, $e_2$, $e_3$, $e_4$ is computed for each process,
 respectively. Then, in INNER_PRODUCT, R12, R13, R14 is computed
 for PROC1, R_{23}, R_{24}, ŷ1 for PROC2, and R34, ŷ3 for PROC3. At last,
