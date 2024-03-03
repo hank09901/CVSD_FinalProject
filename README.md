@@ -32,11 +32,12 @@ $$\underline{y} = \begin{bmatrix} y_1 \\\ y_2 \\\ y_3 \\\ y_4 \end{bmatrix} = \b
 
 # Algorithm
 
-Our algorithm is mainly based on the concept of modified
+1. Our algorithm is mainly based on the concept of modified
 Gram-Schmidt and some adjustments have been made. For each of
-resource elements, we divide the algorithm into four processes. And
-in each process, we separate several computations accordingly. As
-the picture of our algorithm flow shown below, we have four procedures(iterations) such as ***PROC1***,
+resource elements, we divide the algorithm into four processes. And ,we separate several computations into different operations according to what the works completed in each process.  
+
+
+2. As the picture of our algorithm flow shown below, we have four procedures(iterations) such as ***PROC1***,
 ***PROC2***, ***PROC3***, ***PROC4***. In each process, we also have four operations, including ***SQUARE***,
 ***SQRT***, ***DIVIDE***, ***INNER_PRODUCT*** (not in the ***PROC4***), ***PROJECTION***.
 First, in ***SQUARE*** and ***SQRT***, the norm of $h_1^\left(0\right)$, $h_2^\left(1\right)$, $h_3^\left(2\right)$, $h_4^\left(3\right)$,
