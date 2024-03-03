@@ -39,7 +39,7 @@ in each process, we separate several computations accordingly. As
 the picture of our algorithm flow shown below, we have PROC1,
 PROC2, PROC3, PROC4, and in each process, we have SQUARE,
 SQRT, DIVIDE, INNER_PRODUCT (not in the PROC4), PROJECTION.
-First, in SQUARE and SQRT, the norm of $h_1^0$, $h_2^1$, $h_3^2$, $h_4^3$,
+First, in SQUARE and SQRT, the norm of $h_1^(0)$, $h_2^(1)$, $h_3^2$, $h_4^3$,
 namely R11, R22, R33, R44, is computed under each iteration, respectively.
 Next, in DIVIDE, e1, e2, e3, e4 is computed for each process,
 respectively. Then, in INNER_PRODUCT, R12, R13, R14 is computed
