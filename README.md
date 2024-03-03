@@ -41,10 +41,12 @@ resource elements, we divide the algorithm into four processes. And ,we separate
 ***PROC2***, ***PROC3***, ***PROC4***. In each process, we also have four operations, including ***SQUARE***,
 ***SQRT***, ***DIVIDE***, ***INNER_PRODUCT*** (not in the ***PROC4***), ***PROJECTION***.
 First, in ***SQUARE*** and ***SQRT***, the norm of $h_1^\left(0\right)$, $h_2^\left(1\right)$, $h_3^\left(2\right)$, $h_4^\left(3\right)$,
-namely $R_{11}$, $R_{22}$, $R_{33}$, $R_{44}$, is computed under each iteration, respectively.
-Next, in ***DIVIDE***, $e_1$, $e_2$, $e_3$, $e_4$ is computed for each process,
-respectively. Then, in INNER_PRODUCT, R12, R13, R14 is computed
-for PROC1, R_{23}, R_{24}, ŷ1 for PROC2, and R34, ŷ3 for PROC3. At last,
+namely $R_{11}$, $R_{22}$, $R_{33}$, $R_{44}$, is computed under each iteration, respectively.  
+
+
+3. Next, in ***DIVIDE***, $e_1$, $e_2$, $e_3$, $e_4$ is computed for each process,
+respectively. Then, in ***INNER_PRODUCT***, $R_{12}$, $R_{13}$, $R_{14}$ is computed
+for ***PROC1***, $R_{23}$, $R_{24}$, $hat{y}_1$ for ***PROC2***, and $R_{34}$, ŷ3 for ***PROC3***. At last,
 in PROJECTION, h_2^(1), h_3^(1), h_4^(1) is computed for PROC1, h_3^(2), h_4^(3),
 $hat{y}_2$ for PROC2, h4
 (3) for PROC3, and ŷ3 for PROC4.
