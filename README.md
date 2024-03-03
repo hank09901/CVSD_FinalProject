@@ -30,7 +30,7 @@ $$\underline{y} = \begin{bmatrix} y_1 \\\ y_2 \\\ y_3 \\\ y_4 \end{bmatrix} = \b
 
 > However, in this project, we only need to implement the QRD.
 
-# Alogrithm
+# Algorithm
 
 Our algorithm is mainly based on the concept of modified
 Gram-Schmidt and some adjustments have been made. For each of
