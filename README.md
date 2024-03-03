@@ -32,8 +32,7 @@ $$\underline{y} = \begin{bmatrix} y_1 \\\ y_2 \\\ y_3 \\\ y_4 \end{bmatrix} = \b
 
 # Algorithm
 
-1. Our algorithm is mainly based on the concept of modified
-Gram-Schmidt and some adjustments have been made. For each of
+1. Our algorithm is mainly based on the concept of ***modified Gram-Schmidt*** and some adjustments have been made. For each of
 resource elements, we divide the algorithm into four processes. And ,we separate several computations into different operations according to what the works completed in each process.  
 
 
@@ -46,7 +45,7 @@ namely $R_{11}$, $R_{22}$, $R_{33}$, $R_{44}$, is computed under each iteration,
 
 3. Next, in ***DIVIDE***, $e_1$, $e_2$, $e_3$, $e_4$ is computed for each process,
 respectively. Then, in ***INNER_PRODUCT***, $R_{12}$, $R_{13}$, $R_{14}$ is computed
-for ***PROC1***, $R_{23}$, $R_{24}$, $\hat{y}_1$ for ***PROC2***, and $R_{34}$, $\hat{y}_3$ for ***PROC3***. At last,
+for ***PROC1***, $R_{23}$, $R_{24}$,$\hat{y}_1$ for ***PROC2***, and $R_{34}$,$\hat{y}_3$ for ***PROC3***. At last,
 in ***PROJECTION***, $h_2^\left(1\right)$, $h_3^\left(1\right)$, $h_4^\left(1\right)$ is computed for ***PROC1***, $h_3^\left(2\right)$, $h_4^\left(3\right)$,
 $\hat{y}_2$ for PROC2, $h_4^\left(3\right)$ for ***PROC3***, and ŷ3 for PROC4.
 The adjustment we make to modified Gram-Schmidt is that we
