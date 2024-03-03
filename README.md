@@ -29,8 +29,12 @@ $$\underline{y} = \begin{bmatrix} y_1 \\\ y_2 \\\ y_3 \\\ y_4 \end{bmatrix} = \b
 ![MIMO system model](https://github.com/hank09901/CVSD_FinalProject/blob/main/Picture/system%20model.png)
 
 > However, in this project, we only need to implement the QRD.
-
-# Algorithm
+# Sample Algorithm 
+![Iteration0](https://github.com/hank09901/CVSD_FinalProject/blob/main/Picture/iteration0.png)
+![Iteration1](https://github.com/hank09901/CVSD_FinalProject/blob/main/Picture/iteration1.png)
+![Iteration2](https://github.com/hank09901/CVSD_FinalProject/blob/main/Picture/iteration2.png)
+![Iteration3](https://github.com/hank09901/CVSD_FinalProject/blob/main/Picture/iteration3.png)
+# Flow of Algorithm 
 
 1. Our algorithm is mainly based on the concept of ***modified Gram-Schmidt*** and some adjustments have been made. For each of
 resource elements, we divide the algorithm into four processes. And ,we separate several computations into different operations according to what the works completed in each process.  
