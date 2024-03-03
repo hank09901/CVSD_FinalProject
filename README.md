@@ -32,16 +32,16 @@ $$\underline{y} = \begin{bmatrix} y_1 \\\ y_2 \\\ y_3 \\\ y_4 \end{bmatrix} = \b
 
 # Alogrithm
 
-$ Our algorithm is mainly based on the concept of modified
+Our algorithm is mainly based on the concept of modified
 Gram-Schmidt and some adjustments have been made. For each of
 resource elements, we divide the algorithm into four processes. And
 in each process, we separate several computations accordingly. As
-the picture of our algorithm flow shown below, we have PROC1,
-PROC2, PROC3, PROC4, and in each process, we have SQUARE,
-SQRT, DIVIDE, INNER_PRODUCT (not in the PROC4), PROJECTION.
-First, in SQUARE and SQRT, the norm of $h_1^\left(0\right)$, $h_2^(1)$, $h_3^2$, $h_4^3$,
-namely R11, R22, R33, R44, is computed under each iteration, respectively.
-Next, in DIVIDE, e1, e2, e3, e4 is computed for each process,
+the picture of our algorithm flow shown below, we have four procedures(iterations) such as ***PROC1***,
+***PROC2***, ***PROC3***, ***PROC4***. In each process, we also have four operations, including ***SQUARE***,
+***SQRT***, ***DIVIDE***, ***INNER_PRODUCT*** (not in the ***PROC4***), ***PROJECTION***.
+First, in ***SQUARE and SQRT***, the norm of $h_1^\left(0\right)$, $h_2^\left(1\right)$, $h_3^\left(2\right)$,$h_4^\left(3\right)$,
+namely $R_{11}$, $R_{22}$,$R_{33}$,$R_{44}$, is computed under each iteration, respectively.
+Next, in ***DIVIDE***, $e_1$, $e_2$, $e_3$, $e_4$ is computed for each process,
 respectively. Then, in INNER_PRODUCT, R12, R13, R14 is computed
 for PROC1, R_{23}, R_{24}, ŷ1 for PROC2, and R34, ŷ3 for PROC3. At last,
 in PROJECTION, h_2^(1), h_3^(1), h_4^(1) is computed for PROC1, h_3^(2), h_4^(3),
@@ -49,5 +49,5 @@ $hat{y}_2$ for PROC2, h4
 (3) for PROC3, and ŷ3 for PROC4.
 The adjustment we make to modified Gram-Schmidt is that we
 separate the computation of 4 elements of ŷ into different stages and
-compute them earlier. $
+compute them earlier.
 
