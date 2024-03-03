@@ -46,10 +46,9 @@ namely $R_{11}$, $R_{22}$, $R_{33}$, $R_{44}$, is computed under each iteration,
 
 3. Next, in ***DIVIDE***, $e_1$, $e_2$, $e_3$, $e_4$ is computed for each process,
 respectively. Then, in ***INNER_PRODUCT***, $R_{12}$, $R_{13}$, $R_{14}$ is computed
-for ***PROC1***, $R_{23}$, $R_{24}$, $hat{y}_1$ for ***PROC2***, and $R_{34}$, ŷ3 for ***PROC3***. At last,
-in PROJECTION, h_2^(1), h_3^(1), h_4^(1) is computed for PROC1, h_3^(2), h_4^(3),
-$hat{y}_2$ for PROC2, h4
-(3) for PROC3, and ŷ3 for PROC4.
+for ***PROC1***, $R_{23}$, $R_{24}$, $\hat{y}_1$ for ***PROC2***, and $R_{34}$, $\hat{y}_3$ for ***PROC3***. At last,
+in ***PROJECTION***, $h_2^\left(1\right)$, $h_3^\left(1\right)$, $h_4^\left(1\right)$ is computed for ***PROC1***, $h_3^\left(2\right)$, $h_4^\left(3\right)$,
+$\hat{y}_2$ for PROC2, $h_4^\left(3\right)$ for ***PROC3***, and ŷ3 for PROC4.
 The adjustment we make to modified Gram-Schmidt is that we
 separate the computation of 4 elements of ŷ into different stages and
 compute them earlier.
